@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/catBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/BigTextViewStyle"
+        />
+
+    <TextView
+        android:id="@+id/catCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/CatDetailsTextViewStyle"
+        />
+
+    <TextView
+        android:id="@+id/catOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Origin:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/CatDetailsTextViewStyle"
+        />
+
+    <TextView
+        android:id="@+id/catCoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coat:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/CatDetailsTextViewStyle"
+        />
+
+    <TextView
+        android:id="@+id/catPattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pattern:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="64dp"
+        style="@style/CatDetailsTextViewStyle"
+        />
+
+    <TextView
+        android:id="@+id/tipThisCatLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Tip This Cat:"
+        style="@style/BigTextViewStyle"
+        />
+
+    <EditText
+        android:id="@+id/editTextTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="64dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/sendTipButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="64dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:text="Send" />
+
+    <TextView
+        android:id="@+id/tipWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning: Invalid Tip!"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        style="@style/CatDetailsTextViewStyle"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>
